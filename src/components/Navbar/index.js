@@ -83,7 +83,7 @@ export default function ButtonAppBar() {
            aria-haspopup="true"
            onClick={handleClick}
            color= "default"
-           className={classes.button}>Webhosting</Button>
+           className={classes.button}>Test2</Button>
           <StyledMenu
             id="customized-menu"
             anchorEl={anchorEl}
@@ -95,19 +95,19 @@ export default function ButtonAppBar() {
               <ListItemIcon>
               <StorageIcon />
               </ListItemIcon>
-              <ListItemText primary="Domain" />
+              <ListItemText primary="Test22222" />
             </StyledMenuItem>
             <StyledMenuItem>
               <ListItemIcon>
               <StorageIcon />
               </ListItemIcon>
-              <ListItemText primary="Webhosting" />
+              <ListItemText primary="Test2222" />
             </StyledMenuItem>
             <StyledMenuItem>
               <ListItemIcon>
               <StorageIcon />
               </ListItemIcon>
-              <ListItemText primary="Information" />
+              <ListItemText primary="Test222" />
             </StyledMenuItem>
           </StyledMenu>
           <Button 
@@ -116,7 +116,7 @@ export default function ButtonAppBar() {
            aria-haspopup="true"
            onClick={handleClick}
            color= "default"
-           className={classes.button}>Server</Button>
+           className={classes.button}>Test</Button>
           <StyledMenu
             id="customized-menu"
             anchorEl={anchorEl}
@@ -128,19 +128,19 @@ export default function ButtonAppBar() {
               <ListItemIcon>
               <StorageIcon />
               </ListItemIcon>
-              <ListItemText primary="VPS" />
+              <ListItemText primary="Test" />
             </StyledMenuItem>
             <StyledMenuItem>
               <ListItemIcon>
               <StorageIcon />
               </ListItemIcon>
-              <ListItemText primary="Root" />
+              <ListItemText primary="Test" />
             </StyledMenuItem>
             <StyledMenuItem>
               <ListItemIcon>
               <StorageIcon />
               </ListItemIcon>
-              <ListItemText primary="Game" />
+              <ListItemText primary="Test" />
             </StyledMenuItem>
           </StyledMenu>
           <Button color="inherit">Einloggen</Button>
