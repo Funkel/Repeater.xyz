@@ -95,19 +95,19 @@ export default function ButtonAppBar() {
               <ListItemIcon>
               <StorageIcon />
               </ListItemIcon>
-              <ListItemText primary="VPS" />
+              <ListItemText primary="Domain" />
             </StyledMenuItem>
             <StyledMenuItem>
               <ListItemIcon>
               <StorageIcon />
               </ListItemIcon>
-              <ListItemText primary="Root" />
+              <ListItemText primary="Webhosting" />
             </StyledMenuItem>
             <StyledMenuItem>
               <ListItemIcon>
               <StorageIcon />
               </ListItemIcon>
-              <ListItemText primary="Game" />
+              <ListItemText primary="Information" />
             </StyledMenuItem>
           </StyledMenu>
           <Button 
