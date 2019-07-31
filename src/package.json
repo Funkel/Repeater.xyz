@@ -1,5 +1,5 @@
 {
-  "title": "Material demo",
+  "title": "Repeater.xyz",
   "devDependencies": {
     "react-scripts": "latest"
   },
@@ -11,5 +11,5 @@
     "@material-ui/core": "latest"
   },
   "keywords": [],
-  "name": "website"
+  "name": "repeater"
 }

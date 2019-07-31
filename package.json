@@ -5,10 +5,11 @@
   },
   "description": "Website für Repeater",
   "dependencies": {
-    "react-dom": "latest",
-    "react": "latest",
+    "@material-ui/core": "latest",
     "@material-ui/icons": "latest",
-    "@material-ui/core": "latest"
+    "punycode": "2.1.1",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "keywords": [],
   "name": "Reapater",
