@@ -114,6 +114,43 @@ export default function ButtonAppBar() {
               <ListItemText primary="Game" />
             </StyledMenuItem>
           </StyledMenu>
+          <Button
+            id="Button2"
+            aria-controls="customized-menu"
+            aria-haspopup="true"
+            variant="contained"
+            color="secondary"
+            position="left"
+            onClick={handleClick}
+          >
+            Server
+          </Button>
+          <StyledMenu
+            id="customized-menu"
+            anchorEl={anchorEl}
+            keepMounted
+            open={Boolean(anchorEl)}
+            onClose={handleClose}
+          >
+            <StyledMenuItem>
+              <ListItemIcon>
+              <StorageIcon />
+              </ListItemIcon>
+              <ListItemText primary="VPS" />
+            </StyledMenuItem>
+            <StyledMenuItem>
+              <ListItemIcon>
+              <StorageIcon />
+              </ListItemIcon>
+              <ListItemText primary="Root" />
+            </StyledMenuItem>
+            <StyledMenuItem>
+              <ListItemIcon>
+              <StorageIcon />
+              </ListItemIcon>
+              <ListItemText primary="Game" />
+            </StyledMenuItem>
+          </StyledMenu>
           <Button color="inherit">Einloggen</Button>
         </Toolbar>
       </AppBar>
