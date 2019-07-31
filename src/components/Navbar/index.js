@@ -77,17 +77,13 @@ export default function ButtonAppBar() {
           <Typography variant="h6" className={classes.title}>
             Repeater.xyz
           </Typography>
-          <Button
-            id="Server"
-            aria-controls="customized-menu"
-            aria-haspopup="true"
-            variant="contained"
-            color="secondary"
-            position="left"
-            onClick={handleClick}
-          >
-            Server
-          </Button>
+      <Button 
+           id="Server"
+           aria-controls="customized-menu"
+           aria-haspopup="true"
+           onClick={handleClick}
+           color= "default"
+           className={classes.button}>Webhosting</Button>
           <StyledMenu
             id="customized-menu"
             anchorEl={anchorEl}
@@ -114,17 +110,13 @@ export default function ButtonAppBar() {
               <ListItemText primary="Game" />
             </StyledMenuItem>
           </StyledMenu>
-          <Button
-            id="Button2"
-            aria-controls="customized-menu"
-            aria-haspopup="true"
-            variant="contained"
-            color="secondary"
-            position="left"
-            onClick={handleClick}
-          >
-            Server
-          </Button>
+          <Button 
+           id="Button2"
+           aria-controls="customized-menu"
+           aria-haspopup="true"
+           onClick={handleClick}
+           color= "default"
+           className={classes.button}>Server</Button>
           <StyledMenu
             id="customized-menu"
             anchorEl={anchorEl}
